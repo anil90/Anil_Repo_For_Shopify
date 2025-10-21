@@ -1,0 +1,11 @@
+{
+    "wrapper": "div#article-custom",
+    "sections": {
+        "template": {
+            "type": "template-article"
+        }
+    },
+    "order": [
+        "template"
+    ]
+}
