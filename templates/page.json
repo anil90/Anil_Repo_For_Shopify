@@ -12,9 +12,17 @@
     "template": {
       "type": "template-page",
       "settings": {}
+    },
+    "contact_form_KCbz3U": {
+      "type": "contact-form",
+      "name": "Contact Form",
+      "settings": {
+        "title": "Contact us"
+      }
     }
   },
   "order": [
-    "template"
+    "template",
+    "contact_form_KCbz3U"
   ]
 }
