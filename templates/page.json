@@ -11,6 +11,7 @@
   "sections": {
     "template": {
       "type": "template-page",
+      "disabled": true,
       "settings": {}
     },
     "contact_form_KCbz3U": {
