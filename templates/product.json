@@ -12,43 +12,43 @@
     "template": {
       "type": "template-product",
       "blocks": {
-        "description": {
-          "type": "description",
-          "settings": {}
-        },
-        "price": {
-          "type": "price",
+        "vendor": {
+          "type": "vendor",
           "settings": {}
         },
         "title": {
           "type": "title",
           "settings": {}
         },
-        "vendor": {
-          "type": "vendor",
+        "price": {
+          "type": "price",
           "settings": {}
         },
         "variant_selector": {
           "type": "variant_selector",
           "settings": {}
         },
-        "checkout_buttons": {
-          "type": "checkout_buttons",
+        "description": {
+          "type": "description",
           "settings": {}
         },
         "quantity": {
           "type": "quantity",
           "settings": {}
+        },
+        "checkout_buttons": {
+          "type": "checkout_buttons",
+          "settings": {}
         }
       },
       "block_order": [
-        "description",
-        "price",
-        "title",
         "vendor",
+        "title",
+        "price",
         "variant_selector",
-        "checkout_buttons",
-        "quantity"
+        "description",
+        "quantity",
+        "checkout_buttons"
       ],
       "settings": {}
     }
