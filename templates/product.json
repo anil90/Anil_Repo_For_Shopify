@@ -12,12 +12,12 @@
     "template": {
       "type": "template-product",
       "blocks": {
-        "price": {
-          "type": "price",
-          "settings": {}
-        },
         "description": {
           "type": "description",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
           "settings": {}
         },
         "title": {
@@ -32,23 +32,23 @@
           "type": "variant_selector",
           "settings": {}
         },
-        "quantity": {
-          "type": "quantity",
-          "settings": {}
-        },
         "checkout_buttons": {
           "type": "checkout_buttons",
+          "settings": {}
+        },
+        "quantity": {
+          "type": "quantity",
           "settings": {}
         }
       },
       "block_order": [
-        "price",
         "description",
+        "price",
         "title",
         "vendor",
         "variant_selector",
-        "quantity",
-        "checkout_buttons"
+        "checkout_buttons",
+        "quantity"
       ],
       "settings": {}
     }
